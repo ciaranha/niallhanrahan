@@ -59,6 +59,12 @@ export default {
       of: [{type: 'reference', to: {type: 'category'}}]
     },
     {
+      name: 'software',
+      title: 'Software',
+      type: 'array',
+      of: [{type: 'string'}]
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'projectPortableText'

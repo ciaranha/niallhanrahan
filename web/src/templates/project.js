@@ -45,6 +45,7 @@ export const query = graphql`
         alt
       }
       title
+      software
       slug {
         current
       }
